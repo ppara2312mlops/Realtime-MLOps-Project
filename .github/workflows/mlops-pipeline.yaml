@@ -32,8 +32,8 @@ jobs:
     
     - name: Generate dataset
       run: |
-        mkdir -p data
-        python generate_data.py
+        mkdir -p models
+        python train.py
     
     - name: Train model
       run: python train.py
