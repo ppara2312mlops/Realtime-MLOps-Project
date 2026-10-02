@@ -7,4 +7,4 @@ spec:
   predictor:
     serviceAccountName: sa-s3-access
     sklearn:
-      storageUri: s3://churn-model-bucket-cicd-parasu/models/churn_model.pkl
+      storageUri: s3://churn-model-bucket-cicd-parasu1/models/churn_model.pkl
